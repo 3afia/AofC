@@ -6,7 +6,7 @@
 with open('input.txt', 'r') as f:
     s = [ x.strip() for x in f.readlines()]
 
-def molc(a,t,p): # Most or least common
+def molc(a,t,p): # Most or least common (array, type, position)
     o, z = 0, 0 # counters 
      
     if len(a) == 2:
