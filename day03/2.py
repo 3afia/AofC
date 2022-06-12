@@ -10,7 +10,7 @@ def molc(a,t,p): # Most or least common (array, type, position)
     o, z = 0, 0 # counters 
      
     if len(a) == 2:
-        return 1 if t == 1 else 0 
+        return t 
     for i in a:
         if int(i[p]) == 1:
             o += 1
